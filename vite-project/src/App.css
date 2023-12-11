@@ -1,0 +1,43 @@
+.app {
+ background-color: white; 
+
+}
+
+#iconsTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#topMenu {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: rgb(55, 62, 98) ;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin: 5rem;
+  color: rgb(55, 62, 98);
+  text-align: center;
+}
+
+.button {
+  height: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+  background-color: white;
+  color: rgb(55, 62, 98);
+  font-weight: 700;
+}
+.button:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.button.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
