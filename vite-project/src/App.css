@@ -3,6 +3,12 @@
 
 }
 
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-top: 3rem;
+}
+
 #iconsTop {
   display: flex;
   flex-direction: row;
@@ -11,11 +17,18 @@
 }
 
 #topMenu {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   margin: 2rem;
   padding: 2rem;
   background-color: rgb(55, 62, 98) ;
 }
 
+#topMenu p {
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
 #icons {
   display: flex;
   flex-direction: row;
@@ -25,19 +38,4 @@
   margin: 5rem;
   color: rgb(55, 62, 98);
   text-align: center;
-}
-
-.button {
-  height: 3em;
-  will-change: filter;
-  transition: filter 300ms;
-  background-color: white;
-  color: rgb(55, 62, 98);
-  font-weight: 700;
-}
-.button:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.button.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
 }
